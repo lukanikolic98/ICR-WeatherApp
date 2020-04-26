@@ -34,9 +34,10 @@
                     </v-btn>
                 </v-col>
             </v-row>
+            <v-divider></v-divider>
             <v-row align="center" justify="center">
                 <v-col cols="3">
-                    <v-select 
+                    <v-select
                     v-model="selectedGraphParam"
                     :items="graphParams"
                     label="Parametar grafa">
@@ -135,7 +136,7 @@ export default {
         ],
         weatherParams: [
         {
-            text: 'City Name',
+            text: 'Ime grada',
             align: 'start',
             sortable: false,
             value: 'name',

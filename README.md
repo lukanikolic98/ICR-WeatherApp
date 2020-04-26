@@ -1,5 +1,9 @@
 # weatherclient
-
+ Koriscene tehnologije:
+  - Vue.js
+  - Vuetify.js
+  - vue-google-charts za crtanje grafa
+  
 ## Project setup
 ```
 npm install
